@@ -1,0 +1,49 @@
+@charset"UTF-8";
+
+/*  em html: id (um elemento)
+    em css: #
+
+    em html: class (varios elementos)
+    em css: .
+*/
+
+body{
+    background-color: rgba(202, 233, 243, 0.726);
+    font-family: "Poppins", sans-serif;
+    
+    
+}
+
+h1{
+    color: rgba(54, 114, 134, 0.726);
+    text-align: center;
+}
+
+h2{
+    color: rgba(57, 162, 197, 0.726);
+    
+}
+
+h3{
+    color: rgb(15, 136, 177);
+}
+
+.basico{
+    color: rgba(10, 119, 10, 0.788);
+    background-color: rgba(140, 197, 140, 0.788) ;
+}
+
+.intermediario{
+    color: rgba(125, 22, 184, 0.753);
+    background-color: rgba(151, 133, 161, 0.753);
+}
+
+.avancado{
+    color: rgba(219, 9, 9, 0.815);
+    background-color: rgba(214, 143, 143, 0.815);
+}
+
+p{
+    text-indent: 30px;
+    font-style: italic;
+}
