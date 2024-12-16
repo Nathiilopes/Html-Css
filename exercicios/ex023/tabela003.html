@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 300px;
+    
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 15px;
+            text-align: center;
+            
+        }
+
+        .caixa1{
+            background-color: red;
+        }
+
+        .caixa2{
+            background-color: darkcyan;
+        }
+
+        .caixa3{
+            background-color: yellow;
+        }
+
+        .caixa4{
+            background-color: salmon;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de células</h1>  
+    
+    <table>
+        <tr>
+            <td>A</td>
+            <td colspan="2" class="caixa1">B</td>
+        </tr>
+
+        <tr>
+            <td rowspan="3" class="caixa2">D</td>
+            <td>E</td>
+            <td rowspan="2" class="caixa3">F</td>
+        </tr>
+
+        <tr>
+            <td>H</td>
+            
+        </tr>
+
+        <tr>
+            <td colspan="2" class="caixa4">K</td>
+            
+        </tr>
+    </table>
+</body>
+</html>
